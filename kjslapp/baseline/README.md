@@ -21,3 +21,6 @@ scikit-learn>=1.0.1
 tqdm>=4.62.3
 
 termcolor>=1.1.0
+
+## 评估文件
+我们提供了评估文件，帮助选手了解测评方式 evaluate.py

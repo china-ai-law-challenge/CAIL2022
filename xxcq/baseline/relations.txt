@@ -1,1 +1,5 @@
-
+NA
+traffic_in
+posess
+sell_drugs_to
+provide_shelter_for

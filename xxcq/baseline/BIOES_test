@@ -1,0 +1,477 @@
+['main.py', '--mode=test']
+BERT_Seq2SeqModel(
+  (encoder): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (1): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (2): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (3): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (4): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (5): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (6): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (7): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (8): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (9): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (10): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (11): BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.1, inplace=False)
+  (ner_classifier): Linear(in_features=768, out_features=6, bias=True)
+  (decoder): Decoder(
+    (attention1): Attention(
+      (linear_ctx): Linear(in_features=768, out_features=768, bias=False)
+      (linear_query): Linear(in_features=768, out_features=768, bias=True)
+      (v): Linear(in_features=768, out_features=1, bias=True)
+    )
+    (attention2): Attention(
+      (linear_ctx): Linear(in_features=768, out_features=768, bias=False)
+      (linear_query): Linear(in_features=768, out_features=768, bias=True)
+      (v): Linear(in_features=768, out_features=1, bias=True)
+    )
+    (lstm): LSTMCell(8448, 768)
+    (e1_pointer_lstm): LSTM(1536, 768, batch_first=True, bidirectional=True)
+    (e2_pointer_lstm): LSTM(3072, 768, batch_first=True, bidirectional=True)
+    (arg1s_lin): Linear(in_features=1536, out_features=1, bias=True)
+    (arg1e_lin): Linear(in_features=1536, out_features=1, bias=True)
+    (arg2s_lin): Linear(in_features=1536, out_features=1, bias=True)
+    (arg2e_lin): Linear(in_features=1536, out_features=1, bias=True)
+    (rel_lin): Linear(in_features=6912, out_features=6, bias=True)
+    (dropout): Dropout(p=0, inplace=False)
+    (w): Linear(in_features=6912, out_features=768, bias=True)
+  )
+  (relation_embeddings): Embedding(6, 768)
+  (dropout_di): Dropout(p=0.3, inplace=False)
+)
+
+Test Results
+
+Test size:  353
+Prediction time:  0:07:55.306164
+('黑仔', '甲基苯丙胺', 'traffic_in') [('黑仔', '欧阳某仑', 'traffic_in'), ('黑仔', '欧阳某仑', 'sell_drugs_to')]
+('万某', '甲基苯丙胺片剂', 'posess') [('万某', '丙胺片剂', 'posess'), ('万某', '甲基苯丙胺', 'posess')]
+('叶某', '吴某', 'provide_shelter_for') [('叶某', '李某', 'provide_shelter_for'), ('叶某', '邓某', 'provide_shelter_for')]
+('孙某', '甲基苯丙胺', 'posess') [('孙某', '甲基苯丙胺', 'traffic_in'), ('孙某', '李某', 'sell_drugs_to')]
+('陈东', '王某', 'sell_drugs_to') [('陈东', '海洛因', 'traffic_in')]
+('黄XX', '林XX', 'sell_drugs_to') [('项仔”', '林XX', 'sell_drugs_to'), ('黄XX', '氯胺酮', 'traffic_in'), ('项仔”', 'K粉', 'traffic_in')]
+('朱宗忠', '王某某', 'sell_drugs_to') [('朱宗忠', '陈某某', 'sell_drugs_to'), ('朱宗忠', '海洛因', 'sell_drugs_to'), ('朱宗忠', '海洛因', 'traffic_in'), ('朱宗忠', '黄某某', 'sell_drugs_to')]
+('罗某某', '黎清建', 'sell_drugs_to') [('罗某某', '黎某某', 'sell_drugs_to'), ('罗某某', '海洛因', 'traffic_in')]
+('陈某', '方某', 'sell_drugs_to') [('陈某', '卢某', 'sell_drugs_to'), ('陈某', '海洛因', 'traffic_in')]
+('徐双喜', '甲基苯丙胺', 'traffic_in') [('徐双喜', '陶某', 'sell_drugs_to'), ('徐双喜', '麻果', 'traffic_in'), ('徐双喜', '麻果', 'posess')]
+('徐双喜', '氯胺酮', 'traffic_in') [('徐双喜', '陶某', 'sell_drugs_to'), ('徐双喜', '麻果', 'traffic_in'), ('徐双喜', '麻果', 'posess')]
+('“七哥”', '甲基苯丙胺', 'traffic_in') [('蓝某某', '甲基苯丙胺', 'traffic_in')]
+('“七哥”', '蓝某某', 'sell_drugs_to') [('蓝某某', '甲基苯丙胺', 'traffic_in')]
+('谭建彪', '张某1', 'sell_drugs_to') [('谭建彪', '黄某1', 'sell_drugs_to'), ('谭建彪', '海洛因', 'traffic_in'), ('谭建彪', '潘某', 'sell_drugs_to')]
+('谭建彪', '曾某', 'sell_drugs_to') [('谭建彪', '黄某1', 'sell_drugs_to'), ('谭建彪', '海洛因', 'traffic_in'), ('谭建彪', '潘某', 'sell_drugs_to')]
+('邱某某', '甲基笨丙胺', 'traffic_in') [('邱某某', '向开军', 'sell_drugs_to'), ('究毛', '甲基笨丙胺', 'traffic_in'), ('究毛', '冰毒', 'traffic_in')]
+('颜某', '冰毒', 'posess') [('颜某', '甲基苯丙胺', 'posess'), ('颜某', '麻古', 'posess')]
+('赵国通', '乔某', 'sell_drugs_to') [('刘某某', '海洛因', 'traffic_in'), ('刘某某', '郭某某', 'sell_drugs_to')]
+('赵国通', '海洛因', 'traffic_in') [('刘某某', '海洛因', 'traffic_in'), ('刘某某', '郭某某', 'sell_drugs_to')]
+('阿龙', '程某某', 'sell_drugs_to') [('阿龙', '甲基苯丙胺', 'traffic_in'), ('阿龙', '程某某1', 'sell_drugs_to'), ('阿龙', '冰毒', 'traffic_in')]
+('陈华桥陈某', '甲基苯丙胺', 'posess') [('陈华桥', '甲基苯丙胺', 'posess')]
+('黄某', '冯×', 'sell_drugs_to') [('冯×', '李××', 'sell_drugs_to'), ('李××', '海洛因', 'traffic_in'), ('黄某和阿松', '李××', 'sell_drugs_to')]
+('黄某', '李××', 'sell_drugs_to') [('冯×', '李××', 'sell_drugs_to'), ('李××', '海洛因', 'traffic_in'), ('黄某和阿松', '李××', 'sell_drugs_to')]
+('黄某', '海洛因', 'traffic_in') [('冯×', '李××', 'sell_drugs_to'), ('李××', '海洛因', 'traffic_in'), ('黄某和阿松', '李××', 'sell_drugs_to')]
+('高某某', '文某', 'provide_shelter_for') [('高某某', '郑某某', 'provide_shelter_for'), ('高某某', '汪某某', 'provide_shelter_for'), ('高某某', '王某', 'provide_shelter_for')]
+('彭某', '甲基苯丙胺片剂', 'posess') [('彭某', '甲基苯丙胺', 'posess')]
+('刘世根', '冰毒', 'traffic_in') [('段某某', '阮长敏', 'provide_shelter_for'), ('刘世根', '冰毒', 'posess'), ('段某某', '刘世根', 'provide_shelter_for'), ('段某某', '黄明江', 'provide_shelter_for')]
+('段某某', '余晓丽', 'provide_shelter_for') [('段某某', '阮长敏', 'provide_shelter_for'), ('刘世根', '冰毒', 'posess'), ('段某某', '刘世根', 'provide_shelter_for'), ('段某某', '黄明江', 'provide_shelter_for')]
+('阮长敏', '段某某', 'sell_drugs_to') [('段某某', '阮长敏', 'provide_shelter_for'), ('刘世根', '冰毒', 'posess'), ('段某某', '刘世根', 'provide_shelter_for'), ('段某某', '黄明江', 'provide_shelter_for')]
+('阮长敏', '余晓丽', 'sell_drugs_to') [('段某某', '阮长敏', 'provide_shelter_for'), ('刘世根', '冰毒', 'posess'), ('段某某', '刘世根', 'provide_shelter_for'), ('段某某', '黄明江', 'provide_shelter_for')]
+('阮长敏', '黄明江', 'sell_drugs_to') [('段某某', '阮长敏', 'provide_shelter_for'), ('刘世根', '冰毒', 'posess'), ('段某某', '刘世根', 'provide_shelter_for'), ('段某某', '黄明江', 'provide_shelter_for')]
+('汪某', '张某', 'sell_drugs_to') [('汪某', '甲基苯丙胺', 'posess')]
+('汪某', '甲基苯丙胺', 'traffic_in') [('汪某', '甲基苯丙胺', 'posess')]
+('胡某某', '氯胺酮', 'posess') [('胡某某', '甲基苯丙胺', 'posess')]
+('何某某', '朱某', 'sell_drugs_to') [('何某某', '唐某', 'sell_drugs_to'), ('何某某', '海洛因', 'traffic_in')]
+('老李', '俞泉胜', 'sell_drugs_to') [('老李', '甲基苯丙胺', 'traffic_in'), ('老李', '杨某', 'sell_drugs_to')]
+('俞泉胜', '甲基苯丙胺', 'traffic_in') [('老李', '甲基苯丙胺', 'traffic_in'), ('老李', '杨某', 'sell_drugs_to')]
+('俞泉胜', '武某', 'sell_drugs_to') [('老李', '甲基苯丙胺', 'traffic_in'), ('老李', '杨某', 'sell_drugs_to')]
+('俞泉胜', '杨某', 'sell_drugs_to') [('老李', '甲基苯丙胺', 'traffic_in'), ('老李', '杨某', 'sell_drugs_to')]
+('王西峰', '甲基苯丙胺', 'traffic_in') [('王西峰', '肖某', 'traffic_in'), ('王西峰', '肖某', 'sell_drugs_to')]
+('张某', '咖啡因', 'traffic_in') [('张某', '李某凤', 'sell_drugs_to'), ('张某', '甲基苯丙胺', 'traffic_in')]
+('沈某', '瞿某', 'provide_shelter_for') [('瞿某', '甲基苯丙胺', 'posess')]
+('肖某某', '徐某"4', 'sell_drugs_to') [('肖某某', '徐某', 'sell_drugs_to'), ('肖某某', '海洛因', 'traffic_in')]
+('王某甲', '王某乙', 'sell_drugs_to') [('王某甲', '程某某', 'traffic_in'), ('王某甲', '程某某', 'sell_drugs_to'), ('王某甲', '戴某', 'sell_drugs_to'), ('王某甲', '海洛因', 'traffic_in'), ('王某甲', '海洛因', 'sell_drugs_to')]
+('李某某', '尼美西泮', 'posess') [('李某某', '甲基苯丙胺', 'posess'), ('李某某', '海洛因', 'posess')]
+('曹某', '张某"4', 'provide_shelter_for') [('曹某', '滕某', 'provide_shelter_for'), ('曹某', '罗某', 'provide_shelter_for'), ('曹某', '汪某', 'provide_shelter_for'), ('曹某', '张某', 'provide_shelter_for'), ('曹某', '谢某', 'provide_shelter_for')]
+('曹某', '滕某"4', 'provide_shelter_for') [('曹某', '滕某', 'provide_shelter_for'), ('曹某', '罗某', 'provide_shelter_for'), ('曹某', '汪某', 'provide_shelter_for'), ('曹某', '张某', 'provide_shelter_for'), ('曹某', '谢某', 'provide_shelter_for')]
+('曹某', '汪某"4', 'provide_shelter_for') [('曹某', '滕某', 'provide_shelter_for'), ('曹某', '罗某', 'provide_shelter_for'), ('曹某', '汪某', 'provide_shelter_for'), ('曹某', '张某', 'provide_shelter_for'), ('曹某', '谢某', 'provide_shelter_for')]
+('吴志健吴某某', '曾兴峰', 'provide_shelter_for') [('吴志健', '曾兴峰', 'provide_shelter_for'), ('吴某某', '曾兴峰', 'provide_shelter_for')]
+('黄某', '冰毒', 'traffic_in') [('黄某', '孙某', 'sell_drugs_to'), ('黄某', '甲基苯丙胺', 'traffic_in')]
+('祝某', 'K粉', 'traffic_in') [('祝某', '张某', 'sell_drugs_to')]
+('唐继尧', '安某某', 'sell_drugs_to') [('安某某', '海洛因', 'traffic_in'), ('安某某', '龙龙', 'sell_drugs_to')]
+('唐继尧', '海洛因', 'traffic_in') [('安某某', '海洛因', 'traffic_in'), ('安某某', '龙龙', 'sell_drugs_to')]
+('安某某', '海洛因', 'posess') [('安某某', '海洛因', 'traffic_in'), ('安某某', '龙龙', 'sell_drugs_to')]
+('唐某某', '甲基苯丙胺片剂', 'posess') [('唐某某', '甲基苯丙胺', 'posess'), ('唐某某', '海洛因', 'posess')]
+('邓某', '甲基苯丙胺片剂', 'posess') [('邓某', '甲基苯丙胺', 'posess')]
+('张×', '某某×', 'provide_shelter_for') [('张×', '郭×', 'provide_shelter_for'), ('张×', '甲基苯丙胺', 'posess')]
+('张某某', '朱某某二', 'provide_shelter_for') [('张某某', '朱某某', 'provide_shelter_for'), ('张某某', '王某某', 'provide_shelter_for'), ('张某某', '李某某', 'provide_shelter_for')]
+('阿某', '张能智', 'sell_drugs_to') [('张能智', '甲基苯丙胺', 'posess')]
+('张某甲', '牟某', 'provide_shelter_for') [('张某甲', '童某', 'provide_shelter_for'), ('张某甲', '王某', 'provide_shelter_for'), ('张某甲', '薛某某', 'provide_shelter_for'), ('张某甲', '陈某某', 'provide_shelter_for'), ('张某甲', '田某某', 'provide_shelter_for'), ('张某甲', '夷某某', 'provide_shelter_for')]
+('张某甲', '王某（甲）', 'provide_shelter_for') [('张某甲', '童某', 'provide_shelter_for'), ('张某甲', '王某', 'provide_shelter_for'), ('张某甲', '薛某某', 'provide_shelter_for'), ('张某甲', '陈某某', 'provide_shelter_for'), ('张某甲', '田某某', 'provide_shelter_for'), ('张某甲', '夷某某', 'provide_shelter_for')]
+('XXX', '黄色晶体', 'traffic_in') [('XXX', 'xxx', 'sell_drugs_to'), ('XXX', '甲基苯丙胺', 'traffic_in')]
+('郑权', '邓某某', 'sell_drugs_to') [('张某', '冰毒', 'sell_drugs_to'), ('刘成', '冰毒', 'traffic_in'), ('郑权', '李某某', 'sell_drugs_to'), ('邓某某', '李某某', 'sell_drugs_to')]
+('郑权', '张某', 'sell_drugs_to') [('张某', '冰毒', 'sell_drugs_to'), ('刘成', '冰毒', 'traffic_in'), ('郑权', '李某某', 'sell_drugs_to'), ('邓某某', '李某某', 'sell_drugs_to')]
+('郑权', '冰毒', 'traffic_in') [('张某', '冰毒', 'sell_drugs_to'), ('刘成', '冰毒', 'traffic_in'), ('郑权', '李某某', 'sell_drugs_to'), ('邓某某', '李某某', 'sell_drugs_to')]
+('汪某某', '甲基苯丙胺片剂', 'traffic_in') [('汪某某', '甲基本丙胺', 'traffic_in'), ('汪某某', '徐某某', 'sell_drugs_to'), ('汪某某', '冰毒', 'traffic_in')]
+('王某', '甲基苯丙胺片剂', 'traffic_in') [('王某', '董某', 'sell_drugs_to'), ('王某', '甲基苯丙胺', 'traffic_in'), ('王某', '冰毒', 'traffic_in')]
+('王某', '甲基苯丙胺晶体', 'traffic_in') [('王某', '董某', 'sell_drugs_to'), ('王某', '甲基苯丙胺', 'traffic_in'), ('王某', '冰毒', 'traffic_in')]
+('朱某甲', '甲基苯丙胺', 'traffic_in') [('朱某甲', '叶某', 'sell_drugs_to'), ('刘某甲', '甲基苯丙胺', 'traffic_in'), ('朱某甲', '刘某甲', 'sell_drugs_to')]
+('朱×伙', '王×', 'sell_drugs_to') [('朱×', '王×', 'sell_drugs_to'), ('朱×', '甲基苯丙胺', 'traffic_in')]
+('朱×伙', '甲基苯丙胺', 'traffic_in') [('朱×', '王×', 'sell_drugs_to'), ('朱×', '甲基苯丙胺', 'traffic_in')]
+('朱某某', '甲基苯丙胺片剂', 'posess') [('朱某某', '甲基苯丙胺', 'posess')]
+('黄某', '杜冷丁', 'posess') [('黄某', '盐酸哌替啶', 'posess')]
+('王某某', '冰毒', 'traffic_in') [('王某某', '宋某', 'sell_drugs_to'), ('王某某', '甲基苯丙胺', 'traffic_in')]
+('谢某某', '林某', 'sell_drugs_to') [('谢某某', '蒋某', 'provide_shelter_for'), ('谢某某', '林某', 'provide_shelter_for'), ('谢某某', '段某', 'provide_shelter_for')]
+('谢某某', '蒋某', 'sell_drugs_to') [('谢某某', '蒋某', 'provide_shelter_for'), ('谢某某', '林某', 'provide_shelter_for'), ('谢某某', '段某', 'provide_shelter_for')]
+('谢某某', '段某', 'sell_drugs_to') [('谢某某', '蒋某', 'provide_shelter_for'), ('谢某某', '林某', 'provide_shelter_for'), ('谢某某', '段某', 'provide_shelter_for')]
+('张某某', '栗XX', 'sell_drugs_to') [('张某某', '冰毒', 'traffic_in'), ('张某某', '魏XX', 'sell_drugs_to'), ('张某某', '赵XX', 'sell_drugs_to'), ('张某某', '冰毒', 'sell_drugs_to'), ('张某某', '刘XX', 'traffic_in'), ('张某某', '刘XX', 'sell_drugs_to')]
+('张某某', '王XX', 'sell_drugs_to') [('张某某', '冰毒', 'traffic_in'), ('张某某', '魏XX', 'sell_drugs_to'), ('张某某', '赵XX', 'sell_drugs_to'), ('张某某', '冰毒', 'sell_drugs_to'), ('张某某', '刘XX', 'traffic_in'), ('张某某', '刘XX', 'sell_drugs_to')]
+('张某某', '麻古', 'traffic_in') [('张某某', '冰毒', 'traffic_in'), ('张某某', '魏XX', 'sell_drugs_to'), ('张某某', '赵XX', 'sell_drugs_to'), ('张某某', '冰毒', 'sell_drugs_to'), ('张某某', '刘XX', 'traffic_in'), ('张某某', '刘XX', 'sell_drugs_to')]
+('王某', '甲基苯丙胺片剂', 'traffic_in') [('王某', '董某', 'sell_drugs_to'), ('王某', '甲基苯丙胺', 'traffic_in'), ('王某', '冰毒', 'traffic_in')]
+('王某', '甲基苯丙胺晶体', 'traffic_in') [('王某', '董某', 'sell_drugs_to'), ('王某', '甲基苯丙胺', 'traffic_in'), ('王某', '冰毒', 'traffic_in')]
+('黄某', '甲基苯丙胺片剂', 'traffic_in') [('黄某', '许某', 'traffic_in'), ('黄某', '许某', 'sell_drugs_to'), ('黄某', '甲基苯丙胺', 'traffic_in')]
+('邓海平', '冰毒', 'traffic_in') [('邓海平', '谢某', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'traffic_in'), ('邓海平', '李某', 'sell_drugs_to'), ('邓海平', '钟某', 'sell_drugs_to')]
+('邓海平', '杨某', 'sell_drugs_to') [('邓海平', '谢某', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'traffic_in'), ('邓海平', '李某', 'sell_drugs_to'), ('邓海平', '钟某', 'sell_drugs_to')]
+('邓海平', '林某', 'sell_drugs_to') [('邓海平', '谢某', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'sell_drugs_to'), ('邓海平', '甲基苯丙胺', 'traffic_in'), ('邓海平', '李某', 'sell_drugs_to'), ('邓海平', '钟某', 'sell_drugs_to')]
+('彭某', '于某某', 'provide_shelter_for') [('彭某', '于某某', 'sell_drugs_to'), ('彭某', '冰毒', 'traffic_in')]
+('二姐', '冰毒', 'traffic_in') [('彭某', '于某某', 'sell_drugs_to'), ('彭某', '冰毒', 'traffic_in')]
+('二姐', '彭某', 'sell_drugs_to') [('彭某', '于某某', 'sell_drugs_to'), ('彭某', '冰毒', 'traffic_in')]
+('罗某', '甲基苯丙胺', 'traffic_in') [('罗某', '龙某某', 'sell_drugs_to'), ('罗某', '王某某', 'sell_drugs_to'), ('罗某', '麻古', 'traffic_in'), ('罗某', '吴某某', 'sell_drugs_to')]
+('陈某某', '彭新起', 'provide_shelter_for') [('陈某某', '王某某', 'provide_shelter_for'), ('陈某某', '方样鹏', 'provide_shelter_for')]
+('张某某', '留董某某', 'provide_shelter_for') [('张某某', '董某某', 'provide_shelter_for'), ('张某某', '申某某', 'provide_shelter_for'), ('张某某', '景某某', 'provide_shelter_for'), ('张某某', '郭某某', 'provide_shelter_for')]
+('张某某', '郭某某、景某某', 'provide_shelter_for') [('张某某', '董某某', 'provide_shelter_for'), ('张某某', '申某某', 'provide_shelter_for'), ('张某某', '景某某', 'provide_shelter_for'), ('张某某', '郭某某', 'provide_shelter_for')]
+('金某', '甲基苯丙胺片剂', 'traffic_in') [('金某', '潘某', 'sell_drugs_to'), ('金某', '甲基苯丙胺', 'traffic_in')]
+('刘某某', '岳某某', 'sell_drugs_to') [('刘某某', '李某某', 'sell_drugs_to'), ('刘某某', '甲卡西酮', 'traffic_in'), ('刘某某', '杨某某', 'sell_drugs_to'), ('刘某某', '石某', 'sell_drugs_to')]
+('刘某某', '咖啡因', 'traffic_in') [('刘某某', '李某某', 'sell_drugs_to'), ('刘某某', '甲卡西酮', 'traffic_in'), ('刘某某', '杨某某', 'sell_drugs_to'), ('刘某某', '石某', 'sell_drugs_to')]
+('朱某某', '贾某某', 'provide_shelter_for') [('朱某某', '徐某某', 'provide_shelter_for'), ('朱某某', '汪某某', 'provide_shelter_for'), ('朱某某', '王某', 'provide_shelter_for'), ('朱某某', '陈某', 'provide_shelter_for')]
+('潘某志', '甲基苯丙胺', 'posess') [('周春某', '甲基苯丙胺', 'posess')]
+('周春某', '潘某志', 'sell_drugs_to') [('周春某', '甲基苯丙胺', 'posess')]
+('周某', '甲基苯丙胺片剂', 'traffic_in') [('周某', '倪波', 'sell_drugs_to'), ('周某', '甲基苯丙胺', 'traffic_in')]
+('周某', '麻果', 'traffic_in') [('周某', '倪波', 'sell_drugs_to'), ('周某', '甲基苯丙胺', 'traffic_in')]
+('吕xx', '韩x', 'provide_shelter_for') [('吕xx', '王x', 'provide_shelter_for'), ('吕xx', '李xx', 'provide_shelter_for'), ('吕xx', '吴xx', 'provide_shelter_for')]
+('董某某', '甲基苯丙胺（冰毒）', 'traffic_in') [('董某某', '程某', 'sell_drugs_to'), ('董某某', '冰毒）', 'traffic_in')]
+('段某', '舒某', 'sell_drugs_to') [('段某', '张某', 'sell_drugs_to'), ('段某', '海洛因', 'traffic_in')]
+('XX', '汤某某', 'provide_shelter_for') [('XX', '何某某', 'provide_shelter_for'), ('XX', '陈某某', 'provide_shelter_for')]
+('XX', '李某某', 'provide_shelter_for') [('XX', '何某某', 'provide_shelter_for'), ('XX', '陈某某', 'provide_shelter_for')]
+('陈XX', '甲基苯丙胺(冰毒)', 'traffic_in') [('陈XX', '端木佩华', 'sell_drugs_to'), ('陈XX', '甲基苯丙胺', 'traffic_in')]
+('杨某某', '温某', 'sell_drugs_to') [('温某', '杨某某', 'sell_drugs_to'), ('温某', '冰毒', 'traffic_in')]
+('杨某某', '冰毒', 'traffic_in') [('温某', '杨某某', 'sell_drugs_to'), ('温某', '冰毒', 'traffic_in')]
+('蔡某某', '海洛因', 'posess') [('蔡某某', '甲基苯丙胺', 'posess')]
+('周某某', '冰毒', 'posess') [('周某某', '海洛因', 'traffic_in'), ('周某某', '冰毒', 'traffic_in'), ('周某某', '麻果', 'traffic_in')]
+('周某某', '麻果', 'posess') [('周某某', '海洛因', 'traffic_in'), ('周某某', '冰毒', 'traffic_in'), ('周某某', '麻果', 'traffic_in')]
+('周某某', '海洛因', 'posess') [('周某某', '海洛因', 'traffic_in'), ('周某某', '冰毒', 'traffic_in'), ('周某某', '麻果', 'traffic_in')]
+('翟某', '唐某', 'sell_drugs_to') [('翟某', '唐林辉', 'sell_drugs_to'), ('翟某', '冰毒', 'traffic_in'), ('翟某', '冰毒', 'sell_drugs_to')]
+('廖某某', '陈某君', 'provide_shelter_for') [('廖某某', '朱某强', 'provide_shelter_for'), ('廖某某', '杨某桂', 'provide_shelter_for'), ('廖某某', '杨某文', 'provide_shelter_for')]
+('不知名的男子', '黄某某', 'sell_drugs_to') [('黄某某', '冰毒', 'traffic_in'), ('黄某某', '岑某', 'sell_drugs_to')]
+('不知名的男子', '韦某', 'sell_drugs_to') [('黄某某', '冰毒', 'traffic_in'), ('黄某某', '岑某', 'sell_drugs_to')]
+('不知名的男子', '冰毒', 'traffic_in') [('黄某某', '冰毒', 'traffic_in'), ('黄某某', '岑某', 'sell_drugs_to')]
+('翟某', '冰毒', 'traffic_in') [('卢强', '甲基苯丙胺', 'traffic_in'), ('翟某', '王伟', 'sell_drugs_to')]
+('张延', '王伟', 'sell_drugs_to') [('卢强', '甲基苯丙胺', 'traffic_in'), ('翟某', '王伟', 'sell_drugs_to')]
+('张延', '甲基苯丙胺', 'traffic_in') [('卢强', '甲基苯丙胺', 'traffic_in'), ('翟某', '王伟', 'sell_drugs_to')]
+('卿某某', '冰毒', 'traffic_in') [('卿某某', '苯丙胺片剂', 'traffic_in'), ('卿某某', '张某', 'sell_drugs_to'), ('卿某某', '甲基苯丙胺', 'traffic_in')]
+('卿某某', '甲基苯丙胺片剂', 'traffic_in') [('卿某某', '苯丙胺片剂', 'traffic_in'), ('卿某某', '张某', 'sell_drugs_to'), ('卿某某', '甲基苯丙胺', 'traffic_in')]
+('卿某某', '麻古', 'traffic_in') [('卿某某', '苯丙胺片剂', 'traffic_in'), ('卿某某', '张某', 'sell_drugs_to'), ('卿某某', '甲基苯丙胺', 'traffic_in')]
+('黄某某', 'K粉', 'traffic_in') [('黄某某', 'K粉”', 'traffic_in'), ('黄某某', '梁××', 'sell_drugs_to')]
+('程明开程某某', '程某3', 'provide_shelter_for') [('程明开', '程某2', 'provide_shelter_for'), ('程某某', '程某1', 'provide_shelter_for'), ('程某某', '程某3', 'provide_shelter_for')]
+('程明开程某某', '程某1', 'provide_shelter_for') [('程明开', '程某2', 'provide_shelter_for'), ('程某某', '程某1', 'provide_shelter_for'), ('程某某', '程某3', 'provide_shelter_for')]
+('程明开程某某', '程某2', 'provide_shelter_for') [('程明开', '程某2', 'provide_shelter_for'), ('程某某', '程某1', 'provide_shelter_for'), ('程某某', '程某3', 'provide_shelter_for')]
+('李金河', '郭某郭某某', 'sell_drugs_to') [('李金河', '郭某某', 'sell_drugs_to'), ('李金河', '潘某2', 'traffic_in'), ('李金河', '潘某2', 'sell_drugs_to'), ('李金河', '潘某1', 'sell_drugs_to')]
+('李金河', '甲基苯丙胺', 'traffic_in') [('李金河', '郭某某', 'sell_drugs_to'), ('李金河', '潘某2', 'traffic_in'), ('李金河', '潘某2', 'sell_drugs_to'), ('李金河', '潘某1', 'sell_drugs_to')]
+('李金河', '冰毒', 'traffic_in') [('李金河', '郭某某', 'sell_drugs_to'), ('李金河', '潘某2', 'traffic_in'), ('李金河', '潘某2', 'sell_drugs_to'), ('李金河', '潘某1', 'sell_drugs_to')]
+('邵明来', '咖啡因', 'posess') [('邵明来', '甲基苯丙胺', 'posess'), ('邵明来', '氯胺酮', 'posess')]
+('魏某某', '陈某2', 'sell_drugs_to') [('魏某某', '海洛因', 'traffic_in'), ('魏某某', '谭某某', 'sell_drugs_to'), ('魏某某', '李某', 'sell_drugs_to'), ('魏某某', '陈某1', 'sell_drugs_to')]
+('魏某某', '王某', 'sell_drugs_to') [('魏某某', '海洛因', 'traffic_in'), ('魏某某', '谭某某', 'sell_drugs_to'), ('魏某某', '李某', 'sell_drugs_to'), ('魏某某', '陈某1', 'sell_drugs_to')]
+('姜某', '甲基苯丙胺', 'traffic_in') [('姜某', '陈某', 'sell_drugs_to'), ('姜某', '辛某', 'sell_drugs_to'), ('姜某', '冰毒', 'traffic_in')]
+('应某', '刘某', 'provide_shelter_for') [('应某', '肖某', 'provide_shelter_for'), ('应某', '余某', 'provide_shelter_for'), ('应某', '周某甲', 'provide_shelter_for'), ('应某', '谢某', 'provide_shelter_for')]
+('李某伟', '甲基苯丙胺', 'posess') [('郑某潮', '甲基苯丙胺', 'posess')]
+('冯某某', '甲基苯丙胺晶体', 'traffic_in') [('冯某某', '向某', 'sell_drugs_to'), ('冯某某', '甲基苯丙胺', 'traffic_in')]
+('冯某某', '甲基苯丙胺片剂', 'traffic_in') [('冯某某', '向某', 'sell_drugs_to'), ('冯某某', '甲基苯丙胺', 'traffic_in')]
+('石某', 'k粉', 'posess') [('石某', '开心粉', 'traffic_in'), ('石某', '李某', 'traffic_in'), ('石某', '李某', 'sell_drugs_to'), ('石某', '甲基苯丙胺', 'posess')]
+('石某', '开心粉', 'posess') [('石某', '开心粉', 'traffic_in'), ('石某', '李某', 'traffic_in'), ('石某', '李某', 'sell_drugs_to'), ('石某', '甲基苯丙胺', 'posess')]
+('吴某', '冰毒', 'traffic_in') [('吴某', '甲基苯丙胺', 'traffic_in'), ('吴某', '刘某', 'sell_drugs_to')]
+('伊布卡·杜库', '海洛因', 'posess') [('伊布卡', '海洛因', 'posess')]
+('王某某', '海洛因', 'traffic_in') [('冯某某', '海洛因', 'traffic_in'), ('冯某某', '王某某', 'sell_drugs_to')]
+('王某甲', '王某', 'provide_shelter_for') [('王某甲', '王某乙', 'provide_shelter_for')]
+('胡长友', '甲基苯丙胺', 'posess') [('胡长友', '大麻', 'posess'), ('胡长友', '氯胺酮', 'posess')]
+716  	  733  	  587
+P:  0.82
+R:  0.801
+F1:  0.81

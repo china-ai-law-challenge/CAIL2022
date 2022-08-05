@@ -12,7 +12,7 @@ def cut_sentences(content):
     @return: sentence list
     @rtype: list
     '''
-    end_flag = ['?', '!', '.', '？', '！', '：', '，', '。', '…']
+    end_flag = ['?', '!', '.', '？', '！', '：', '。', '…']
 
     content_len = len(content)
     sentences = []

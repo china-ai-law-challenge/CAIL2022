@@ -20,7 +20,7 @@
 2、每行包含6列内容，分别为输入数据id（必需字段）、匹配预测label（必需字段）、Case_A_rationales（必需字段），
 Case_B_rationales（必需字段）， relation（必需字段），以table键隔开。其中，输入id来自测试集文件，
 匹配预测label是模型对案例匹配标签的预测结果，Case_A_rationales 与 Case_B_rationales 中包含句子id使用英文逗号隔开， 
-Case_A_B_rationales 使用[Case_A句子id,Case_B句子id] 的形式，间隔符号均为英文输入状态。请注意，证据的句子 id要跟输入文件中给出的句子 id对齐。
+relation 使用[Case_A句子id,Case_B句子id] 的形式，间隔符号均为英文输入状态。请注意，证据的句子 id要跟输入文件中给出的句子 id对齐。
 结果评估时，基于的是我们提供的分句进行的，句子编号从0开始。
 
 3、将预测结果压缩为zip格式上传

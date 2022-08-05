@@ -6,6 +6,6 @@
 
 ### 基线模型见：baseline
 
-### 提交说明见：sample
+### 提交说明以及数据说明见：sample
 
 ### 相关问题请咨询：jeryi.sunzx01@gmail.com

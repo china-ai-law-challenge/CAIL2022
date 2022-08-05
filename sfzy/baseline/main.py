@@ -69,6 +69,6 @@ def gen_lead3_data(input_path, output_path):
 
 if __name__ == "__main__":
     # get lead_3 results
-    input_path = 'evaluate/evaluate.jsonl'
+    input_path = 'stage_1/evaluate.jsonl'
     output_path = 'data/result.jsonl'
     gen_lead3_data(input_path, output_path)

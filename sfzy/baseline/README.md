@@ -7,7 +7,7 @@
 ``python main.py``
 
 ## 输入输出文件
-输入（测试集）：``../evaluate/evaluate.jsonl``
+输入（测试集）：``../stage_1/evaluate.jsonl``
 输出（摘要结果文件）：``data/result.jsonl``
 
 数据均包含若干行，每行数据为jsonl格式，测试集包含若干字段：

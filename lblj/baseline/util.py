@@ -42,7 +42,9 @@ def get_dataset(
     )
 
     if 'answer' in dataset.column_names:
-        return dataset.train_test_split(test_size=0.1)
+        return dataset.rename_column(
+            'answer', 'labels'
+        ).train_test_split(test_size=0.1)
     else:
         return dataset
 
@@ -60,9 +62,9 @@ class DataCollatorForMultipleChoice:
         batch_size = len(features)
         num_choices = len(features[0]['input_ids'])
 
-        if 'answer' in features[0].keys():
+        if 'labels' in features[0].keys():
             labels: Optional[List[int]] = [
-                feature.pop('answer') for feature in features
+                feature.pop('labels') for feature in features
             ]
         else:
             labels = None

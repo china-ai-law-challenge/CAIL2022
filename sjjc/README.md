@@ -2,7 +2,7 @@
 
 该项目为 **CAIL2022——事件检测** 赛道的代码和提交说明
 
-报名地址 [[link]](http://cail.cipsc.org.cn/task1.html?raceID=1&cail_tag=2022)， 数据集下载 [[link]](http://cail.cipsc.org.cn/task_summit.html?raceID=1&cail_tag=2022)，CAIL2021官网[[link]](http://cail.cipsc.org.cn/index.html)
+报名地址 [[link]](http://cail.cipsc.org.cn/task1.html?raceID=1&cail_tag=2022)， 数据集下载 [[link]](https://cloud.tsinghua.edu.cn/d/6e911ff1286d47db8016/)，CAIL2022官网[[link]](http://cail.cipsc.org.cn/index.html)
 
 选手交流QQ群：237633234
 
@@ -10,7 +10,8 @@
 
 本任务所使用的数据集来自于论文 [LEVEN: A Large-Scale Chinese Legal Event Detection Dataset](https://aclanthology.org/2022.findings-acl.17.pdf)。
 
-更多信息请参考 [thunlp/LEVEN](https://github.com/thunlp/LEVEN)
+数据集的背景、用法等详细介绍请参考： [thunlp/LEVEN](https://github.com/thunlp/LEVEN)
+
 
 `train.jsonl` 为训练集，格式如下
 

@@ -19,6 +19,7 @@ QQ群：237633234
 ## 提交的文件格式及组织形式
 
 你可以在 ``model`` 中找到最简单的提交代码的格式。你需要将你所有的代码压缩为一个 ``zip`` 文件进行提交，该 ``zip`` 文件内部形式可以参看 ``model/submit_sample.zip``。该 ``zip`` 文件**内部顶层**必须包含``main.py``，为运行的入口程序，我们会在该目录下使用``python3 main.py``来运行你的程序。
+另外，达到baseline结果的模型已公开在百度网盘(https://pan.baidu.com/s/1HHZp8T9qSkuyHWMbNdnxtA  提取码：x26p)，方便各位选手下载测试。
 
 ## 代码的内容
 

@@ -10,8 +10,15 @@
 
 本任务所使用的数据集来自于论文 [LEVEN: A Large-Scale Chinese Legal Event Detection Dataset](https://aclanthology.org/2022.findings-acl.17.pdf)。
 
-数据集的背景、用法等详细介绍请参考： [thunlp/LEVEN](https://github.com/thunlp/LEVEN)
+关于任务的详细信息，请参考 [thunlp/LEVEN](https://github.com/thunlp/LEVEN) ：
+ - 数据集的背景
+ - 数据集的标注手册
+ - Baseline代码实现
+ - 事件检测在 [判决预测](http://cail.cipsc.org.cn/task_summit.html?raceID=2&cail_tag=2018) 和 [类案检索](http://cail.cipsc.org.cn/task3.html?raceID=3&cail_tag=2022) 两个Legal AI 下游任务中的应用
+ 	- 实现细节参考[论文](https://aclanthology.org/2022.findings-acl.17.pdf) 5.5节
+ 	- 代码参考 [thunlp/LEVEN/Downstreams](https://github.com/thunlp/LEVEN/tree/main/Downstreams)
 
+数据集格式信息如下：
 
 `train.jsonl` 为训练集，格式如下
 

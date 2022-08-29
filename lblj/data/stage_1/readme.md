@@ -31,4 +31,6 @@
 
 ## 提交文件格式
 
+**2022-08-29 更新：根据评测平台设置，请提交仅含 predict.jsonl 的 .zip 压缩文件！**
+
 在第一阶段中，请提交经过模型预测的、对应 `test_entry.jsonl` 中样本的 `answer` 标签，以 JSON Line 文件格式存储，命名为 `predict.jsonl`。其中，文件每行包含单个样本的预测 JSON 字符串，单样本预测结果的 JSON 格式可参考 `predict_standard.json`。如果提交结果不符合规定的格式，将可能导致评测失败或准确率计算错误，影响评测成绩。

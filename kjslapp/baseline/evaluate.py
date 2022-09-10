@@ -10,7 +10,16 @@ def rationale_acc(selected_id_a, Case_a_rational, selected_id_b, Case_b_rational
         for j in Case_a_rational:
             if i == j:
                 right_a += 1
-    P_a, R_a = right_a/len(selected_id_a), right_a/len(Case_a_rational)
+    if len(selected_id_a) == 0:
+        P_a = 0
+    else:
+        P_a = right_a/len(selected_id_a)
+    
+    if len(Case_a_rational)==0:
+        R_a = 0
+    else:
+        R_a = right_a/len(Case_a_rational)
+
     if P_a + R_a <= e_min:
         F_a = 0
     else:
@@ -21,7 +30,16 @@ def rationale_acc(selected_id_a, Case_a_rational, selected_id_b, Case_b_rational
         for j in Case_b_rational:
             if i == j:
                 right_b += 1
-    P_b, R_b = right_b/len(selected_id_b), right_b/len(Case_b_rational)
+    if len(selected_id_b) == 0:
+        P_b = 0
+    else:
+        P_b = right_b/len(selected_id_b)
+    
+    if len(Case_b_rational)==0:
+        R_b = 0
+    else:
+        R_b = right_b/len(Case_b_rational)
+
     if P_b+R_b <= e_min:
         F_b = 0
     else:

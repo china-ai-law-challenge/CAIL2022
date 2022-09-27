@@ -10,5 +10,5 @@
 
 ### 相关问题请咨询：jeryi.sunzx01@gmail.com
 
-##acknowledgment
+## Acknowledgment
 感谢 [Yixiang丶](https://github.com/wyxlzsq) 对比赛的支持

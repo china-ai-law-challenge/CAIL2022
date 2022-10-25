@@ -12,11 +12,17 @@
 
 ## Reference
 @inproceedings{yu2022explainable,
+
   title={Explainable legal case matching via inverse optimal transport-based rationale extraction},
+  
   author={Yu, Weijie and Sun, Zhongxiang and Xu, Jun and Dong, Zhenhua and Chen, Xu and Xu, Hongteng and Wen, Ji-Rong},
+  
   booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  
   pages={657--668},
+  
   year={2022}
+  
 }
 
 ## Acknowledgment

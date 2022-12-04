@@ -127,7 +127,6 @@ nltk==3.5
 notebook==6.4.3
 numexpr==2.7.1
 numpy==1.19.5
-recordclass==0.17.5
 oauthlib==3.1.1
 opt-einsum==3.3.0
 overrides==3.1.0
@@ -232,3 +231,4 @@ typer==0.3.2
 typing-extensions==3.7.4.3
 zc-lockfile==2.0
 zipp==3.5.0
+keras_bert==0.88.0
